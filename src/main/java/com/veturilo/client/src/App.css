@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/*.line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+*/
+
+.panel {
+  flex-grow: 1; /*flex-grow property*/
+  /*justify-content: center;*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+}
+
+.stations {
+  margin: -50px 10px 10px 25px;
+  padding-right: 10px;
+}
+
+.stations-grid {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.station-list-item {
+  padding: 8px;
+  height: 293px;
+  width: 294px;
+}
+
+.canvasjs-chart-canvas {
+  width: 292px !important;
+  height: 215px !important;
+}
+
+iframe {
+  width: 470px;
+  height: 570px;
+}
+
+body {
+  overflow: hidden;
+}
