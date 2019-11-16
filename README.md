@@ -7,11 +7,11 @@ How to start the VeturiloBike application
 2. Start application with `java -jar target/dropwizard.bike-1.0-SNAPSHOT.jar server config.yml`
 3. To check that your application is running enter url `http://localhost:8080`
 
-VeturiloBike frontend is in directory: veturilo\src\main\java\com\veturilo\client 
----
 
 How to start the VeturiloBike frontend
 ---
+
+VeturiloBike frontend is in directory: veturilo\src\main\java\com\veturilo\client 
 
 1. Go to above directory
 2. Run `npm install`
