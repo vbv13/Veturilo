@@ -11,9 +11,7 @@ How to start the VeturiloBike application
 How to start the VeturiloBike frontend
 ---
 
-VeturiloBike frontend is in directory: veturilo\src\main\java\com\veturilo\client 
-
-1. Go to above directory
+1. Go to client directory
 2. Run `npm install`
 3. Run `npm start`
 4. React application should be running at `http://localhost:3000/`
