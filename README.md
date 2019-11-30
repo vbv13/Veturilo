@@ -8,7 +8,7 @@ How to start the VeturiloBike application
 3. To check that your application is running enter url `http://localhost:8080`
 
 
-How to start the VeturiloBike frontend
+How to start the VeturiloBike frontend application
 ---
 
 1. Go to client directory
@@ -28,3 +28,10 @@ Application consist of four veturilo stations. We are showing to the user name o
 View of the app was build on React. Graphs were build by using CanvasJS.
 Data share to the frontend was served by backend through cyclic polling.
 Backend stack: Java, Dropwizard, PostgreSQL.
+
+Running mock
+---
+
+1. Import mock for example into SoapUI. From veturilo\client\backend directory.
+2. Run it. It's running on port 8089. So in veturilo\client\src\StationsAPI.js change const api = "http://localhost:8080" to 8089.
+3. Run React app. And see the results on the http://localhost:3000
